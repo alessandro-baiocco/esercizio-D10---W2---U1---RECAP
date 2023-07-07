@@ -133,88 +133,88 @@ console.log("------------------------------------");
     es. [f, b, e] --> [6, 2, 5]
 */
 
-console.log("esercizio 10 :");
 const charactersArray = ["g", "n", "u", "z", "d"];
+const numberArray = [];
 
 for (i = 0; i < charactersArray.length; i++) {
   switch (typeof charactersArray[i] === "string") {
     case charactersArray[i].toUpperCase() === "A":
-      console.log("1");
+      numberArray.push(1);
       break;
     case charactersArray[i].toUpperCase() === "B":
-      console.log("2");
+      numberArray.push(2);
       break;
     case charactersArray[i].toUpperCase() === "C":
-      console.log("3");
+      numberArray.push(3);
       break;
     case charactersArray[i].toUpperCase() === "D":
-      console.log("4");
+      numberArray.push(4);
       break;
     case charactersArray[i].toUpperCase() === "E":
-      console.log("5");
+      numberArray.push(5);
       break;
     case charactersArray[i].toUpperCase() === "F":
-      console.log("6");
+      numberArray.push(6);
       break;
     case charactersArray[i].toUpperCase() === "G":
-      console.log("7");
+      numberArray.push(7);
       break;
     case charactersArray[i].toUpperCase() === "H":
-      console.log("8");
+      numberArray.push(8);
       break;
     case charactersArray[i].toUpperCase() === "I":
-      console.log("9");
+      numberArray.push(9);
       break;
     case charactersArray[i].toUpperCase() === "J":
-      console.log("10");
+      numberArray.push(10);
       break;
     case charactersArray[i].toUpperCase() === "I":
-      console.log("11");
+      numberArray.push(11);
       break;
     case charactersArray[i].toUpperCase() === "L":
-      console.log("12");
+      numberArray.push(12);
       break;
     case charactersArray[i].toUpperCase() === "M":
-      console.log("13");
+      numberArray.push(13);
       break;
     case charactersArray[i].toUpperCase() === "N":
-      console.log("14");
+      numberArray.push(14);
       break;
     case charactersArray[i].toUpperCase() === "O":
-      console.log("15");
+      numberArray.push(15);
       break;
     case charactersArray[i].toUpperCase() === "P":
-      console.log("16");
+      numberArray.push(16);
       break;
     case charactersArray[i].toUpperCase() === "Q":
-      console.log("17");
+      numberArray.push(17);
       break;
     case charactersArray[i].toUpperCase() === "R":
-      console.log("18");
+      numberArray.push(18);
       break;
     case charactersArray[i].toUpperCase() === "S":
-      console.log("19");
+      numberArray.push(19);
       break;
     case charactersArray[i].toUpperCase() === "T":
-      console.log("20");
+      numberArray.push(20);
       break;
     case charactersArray[i].toUpperCase() === "U":
-      console.log("21");
+      numberArray.push(21);
       break;
     case charactersArray[i].toUpperCase() === "V":
-      console.log("22");
+      numberArray.push(22);
       break;
     case charactersArray[i].toUpperCase() === "W":
-      console.log("23");
+      numberArray.push(23);
       break;
     case charactersArray[i].toUpperCase() === "X":
-      console.log("24");
+      numberArray.push(24);
       break;
     case charactersArray[i].toUpperCase() === "Y":
-      console.log("25");
+      numberArray.push(25);
       break;
     case charactersArray[i].toUpperCase() === "Z":
-      console.log("26");
+      numberArray.push(26);
       break;
     case typeof charactersArray[i] === "string":
       console.log("brah non è una lettera è una frase o un simbolo");
@@ -223,4 +223,5 @@ for (i = 0; i < charactersArray.length; i++) {
   if (typeof charactersArray[i] !== "string") {
     console.log("brah non è una lettera");
   }
+  console.log("esercizio 10 : ", numberArray);
 }
