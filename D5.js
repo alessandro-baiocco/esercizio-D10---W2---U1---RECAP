@@ -65,7 +65,7 @@ const cars = [
 ];
 
 for (i = 0; i < cars.length; i++) {
-  cars[i].licensePlate = true;
+  cars[i].licensePlate = Math.floor(Math.random() * 101);
 }
 console.log("esercizio 5 : ", cars);
 console.log("------------------------------------");
