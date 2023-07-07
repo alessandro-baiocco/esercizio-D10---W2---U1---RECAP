@@ -223,5 +223,5 @@ for (i = 0; i < charactersArray.length; i++) {
   if (typeof charactersArray[i] !== "string") {
     console.log("brah non è una lettera");
   }
-  console.log("esercizio 10 : ", numberArray);
 }
+console.log("esercizio 10 : ", numberArray);
