@@ -84,7 +84,7 @@ const objExer1 = {
 cars.push(objExer1);
 
 for (let i = 0; i < cars.length; i++) {
-  cars[i].trims.shift();
+  cars[i].trims.pop();
 }
 console.log("esercizio 6 :", cars);
 console.log("------------------------------------");
@@ -215,6 +215,9 @@ for (i = 0; i < charactersArray.length; i++) {
       break;
     case charactersArray[i].toUpperCase() === "Z":
       console.log("26");
+      break;
+    case typeof charactersArray[i] === "string":
+      console.log("brah non è una lettera è una frase o un simbolo");
       break;
   }
   if (typeof charactersArray[i] !== "string") {
