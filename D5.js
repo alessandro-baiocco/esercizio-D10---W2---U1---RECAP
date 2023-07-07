@@ -119,7 +119,7 @@ console.log("------------------------------------");
 */
 console.log("esercizio 9 : ");
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
-let whileVar = 0;
+let whileVar = -1;
 while (numericArray[whileVar] !== 32) {
   whileVar++;
   console.log(numericArray[whileVar]);
