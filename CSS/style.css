@@ -1,0 +1,132 @@
+/*--------------------------------------------
+ parametri pensati per 1368 x 1115 
+ ---------------------------------------------*/
+
+/* general */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 0;
+}
+/* header */
+
+header {
+  background-color: #222f3f;
+  padding: 10px 0px 9px 30px;
+}
+
+/* nav */
+
+nav {
+  background-color: #364759;
+  height: 16px;
+  color: white;
+  padding: 8px 0 8px 25px;
+}
+nav span {
+  margin: 10px 8px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+/* main */
+main {
+  padding: 30px 33px;
+  text-align: center;
+  background-color: #e9edee;
+}
+
+a {
+  padding-left: 10px;
+  color: #0e5e65;
+  text-decoration: none;
+}
+.orange {
+  background-color: #f56600;
+  padding: 3px 0 3px 0;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+main div p {
+  padding: 6px 0 6px 0;
+  color: aliceblue;
+  font-weight: 300;
+}
+
+.title {
+  height: 200px;
+  background-image: url(../assets/bg-image.png);
+  background-size: 1200px 125px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.title h1 {
+  font-size: 30px;
+  padding-top: 70px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.title h3 {
+  font-weight: 600;
+}
+.gift {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.gift h3 {
+  margin-left: 20px;
+  font-weight: 100;
+}
+.gift h3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+.perfectGift {
+  display: inline;
+  margin: 0px;
+}
+
+.perfectGift img {
+  width: 290px;
+  height: 340px;
+  border-radius: 13% 13% 13% 13% / 13% 13% 13% 13%;
+  margin: 0px 15px 20px 4px;
+  box-shadow: 8px 0px 15px 4px rgba(0, 0, 0, 0.4);
+}
+
+.under {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.under img {
+  width: 100%;
+}
+
+/* aside */
+
+aside {
+  background-color: #364759;
+  text-align: center;
+  padding: 15px 0px 15px;
+  vertical-align: middle;
+}
+aside a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+  background-color: #222f3f;
+  padding: 60px 45%;
+}
